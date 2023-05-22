@@ -1,0 +1,19 @@
+# https://help.github.com/articles/ignoring-files
+
+# Dependencies
+node_modules
+
+# Production
+build
+client/src/contracts
+client/*/src/contracts
+
+# Env
+.env
+client/src/env.json
+
+# Editor
+.vscode
+
+# Misc.
+.DS_Store
